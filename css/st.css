@@ -1,8 +1,157 @@
+/* Служебный раздел */
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
+html,
+body {
+	height: 100%;
+}
+
+/* Прижимаем футер к низу */
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	border:1px solid red;
+}
+.content {
+	padding-bottom: 90px;
+	border:1px solid green;
+}
+.footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	border:1px solid blue;
+}
+
+.ddd {
+	width: 100%;
+	height: 300px;
+	border:1px solid pink;
+}
+
+/* Блок для слайдера*/
+
+.header__slider_img {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	height: 500px;
+}
+
+
+
+
+
+
+/* Стили первого (главного) слайдера */
+
+.hover-image-5 a {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  overflow: hidden;
+  height: auto;
+  text-align: center;
+  background: #bfe2ff;
+}
+.hover-image-5 a img {
+  opacity: 1;
+  transition: opacity 0.5s;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.hover-image-5 a:hover img {
+  opacity: 0.5;
+}
+.hover-image-5 a div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hover-image-5 a div::before,
+.hover-image-5 a div::after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  content: "";
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+  pointer-events: none;
+}
+.hover-image-5 a div::before {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: scale(0, 1);
+}
+.hover-image-5 a div::after {
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+  transform: scale(1, 0);
+}
+.hover-image-5 a:hover div::before,
+.hover-image-5 a:hover div::after {
+  opacity: 1;
+  transform: scale(1);
+}
+.hover-image-5 div img,
+.hover-image-5 div i {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -24px;
+  margin-left: -24px;
+  width: 48px;
+  height: 48px;
+  transition: transform 0.5s ease 0s;
+  transform: scale(0);
+  font-size: 48px;
+  color: #fff;
+}
+.hover-image-5 a:hover div img,
+.hover-image-5 a:hover div i {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* стили  верхнего меню */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .mobile-header {
     display: none;
@@ -243,82 +392,6 @@
 
 
 
-/* Стили первого (главного) слайдера */
-
-.hover-image-5 a {
-  position: relative;
-  z-index: 1;
-  display: inline-block;
-  overflow: hidden;
-  height: auto;
-  text-align: center;
-  background: #bfe2ff;
-}
-.hover-image-5 a img {
-  opacity: 1;
-  transition: opacity 0.5s;
-  position: relative;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-.hover-image-5 a:hover img {
-  opacity: 0.5;
-}
-.hover-image-5 a div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.hover-image-5 a div::before,
-.hover-image-5 a div::after {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
-  content: "";
-  opacity: 0;
-  transition: opacity 0.5s, transform 0.5s;
-  pointer-events: none;
-}
-.hover-image-5 a div::before {
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-  transform: scale(0, 1);
-}
-.hover-image-5 a div::after {
-  border-right: 2px solid #fff;
-  border-left: 2px solid #fff;
-  transform: scale(1, 0);
-}
-.hover-image-5 a:hover div::before,
-.hover-image-5 a:hover div::after {
-  opacity: 1;
-  transform: scale(1);
-}
-.hover-image-5 div img,
-.hover-image-5 div i {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -24px;
-  margin-left: -24px;
-  width: 48px;
-  height: 48px;
-  transition: transform 0.5s ease 0s;
-  transform: scale(0);
-  font-size: 48px;
-  color: #fff;
-}
-.hover-image-5 a:hover div img,
-.hover-image-5 a:hover div i {
-  transform: scale(1);
-  opacity: 1;
-}
 
 
 
