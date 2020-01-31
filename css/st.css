@@ -20,6 +20,14 @@
 
 }
 
+/* Логотип */
+.nav_login {
+	width: 25%;
+	height: 80px;
+	float: left;
+	border:1px solid red;
+}
+
 
 
 /* Меню */
@@ -39,10 +47,14 @@
 	list-style-type:none;
 }
 
+#li-fix {
+	float: right;
+}
+
 .nav li a{
 	display: block;
-	padding: 27px 15px 28px 15px;
-	font-size: 18px;
+	padding: 30px 15px 30px 15px;
+	font-size: 16px;
 	color:#fff;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -53,8 +65,8 @@
 .nav li a:hover {
 	background-color: #4A3671;
 	display: block;
-	padding: 27px 15px 28px 15px;
-	font-size: 18px;
+	padding: 30px 15px 30px 15px;
+	font-size: 16px;
 	color:#fff;
 	text-transform: uppercase;
 	text-decoration: none;
