@@ -263,18 +263,49 @@
 	width: 90%;
 	height: 350px;
 	margin: 0 auto;
-	border:1px solid red;
+	
 
 }
 
 .icons-item {
 	width: 24.5%;
 	height: 340px;
-	border:1px solid green;
 	display: inline-block;
 	
 }
 
+.icons-item-circle {
+	width: 100%;
+	height: 200px;
+	
+
+}
+
+.circle {
+	width: 150px;
+	height: 150px;
+	margin: 20px auto;
+	border-radius: 50%;
+	border:2px solid #fff;
+	background-color: #fff;
+	overflow: hidden;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.icons-item-text {
+    width: 80%;
+	height: 145px;
+	margin: 0 auto;
+	
+}
+
+.icons-item-text p {
+	font-size: 1em;
+	color:#fff;
+	font-family: "Exo2Regular",sans-serif;
+}
 
 /* Мои работы */
 
