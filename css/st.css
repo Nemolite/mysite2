@@ -250,7 +250,29 @@
 	width: 80%;
 	height: 110px;
 	margin: 0 auto;
+	
+}
+
+.info-wp-text p {
+	color:#fff;
+	font-size: 1.2em;
+	font-family: "Exo2Regular",sans-serif;
+}
+
+.info-wp-icons {
+	width: 90%;
+	height: 350px;
+	margin: 0 auto;
+	border:1px solid red;
+
+}
+
+.icons-item {
+	width: 24.5%;
+	height: 340px;
 	border:1px solid green;
+	display: inline-block;
+	
 }
 
 
