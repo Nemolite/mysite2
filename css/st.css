@@ -218,7 +218,26 @@
     margin: 0;
 	
 }
+/* Первый переход между блоками */
+.transition {
+    width: 110%;
+    height: 120px;
+    margin-left: -5px;
+    overflow:hidden;
+    background-image: linear-gradient(to left, rgb(80, 91, 217), rgb(89, 96, 212), rgb(98, 101, 208), rgb(108, 106, 203), rgb(117, 111, 199), rgb(126, 116, 194), rgb(135, 120, 190), rgb(144, 125, 185), rgb(153, 130, 181), rgb(163, 135, 176), rgb(172, 140, 172), rgb(181, 145, 167));
+}
 
+.transition-top {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, rgba(0,212,255,1) 100%);
+	width: 120%;
+	height: 43px;
+	-webkit-transform: rotate(-5deg); /* Chrome y Safari */
+    -moz-transform: rotate(-5deg); /* Firefox */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* Internet Explorer */
+    -o-transform: rotate(-5deg); /* Opera */
+
+}
 
 /* Второй блок после слайдера WordPress */
 .info-wp {
@@ -305,6 +324,14 @@
 	font-size: 1em;
 	color:#fff;
 	font-family: "Exo2Regular",sans-serif;
+}
+
+/* Третий блок, цены */
+
+.prices {
+	width: 100%;
+	height: 650px;
+	border:1px solid red;
 }
 
 /* Мои работы */

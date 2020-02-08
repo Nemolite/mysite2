@@ -29,7 +29,7 @@ $(function(){
 
 
 
-$(".header__slider_img").vegas({
+$(".fon-header").vegas({
     delay: 10000,
     transition: 'zoomOut',
     transitionDuration: 3000,
