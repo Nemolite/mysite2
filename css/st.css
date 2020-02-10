@@ -243,7 +243,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, r
 .info-wp {
 	width: 100%;
 	height: 650px;
-	background-color: #016087;
+	background-color: #3F2D5F;
 	padding-top: 50px;
 }
 
@@ -317,6 +317,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, r
     width: 80%;
 	height: 145px;
 	margin: 0 auto;
+	margin-left: 69px;
 	
 }
 
@@ -331,8 +332,125 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, r
 .prices {
 	width: 100%;
 	height: 650px;
+	padding-top: 50px;
 	border:1px solid red;
+	
 }
+
+.prices-head-txt {
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	
+}
+
+.prices-head-txt h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+    text-align: center;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.prices-block {
+	width: 80%;
+	height: 500px;
+	margin: 0 auto;
+	
+}
+
+.prices-block-budjet {
+	width: 100%;
+	height: 80px;
+}
+
+.budjet-head {
+	width: 70%;
+	height: 80px;
+	float: left;
+	border:1px dotted #3F2D5F;
+}
+
+.budjet-txt {
+	width: 29.7%;
+	height: 80px;
+	float: left;
+	background-color: #3F2D5F;
+	color: #fff;
+}
+
+.prices-block-standart {
+	width: 100%;
+	height: 100px;
+	
+}
+
+.standart-head {
+	width: 60%;
+	height: 100px;
+	float: left;
+	border:1px dotted #3F2D5F;
+	
+}
+
+.standart-txt {
+	width: 39.7%;
+	height: 100px;
+	float: left;
+	background-color: #3F2D5F;
+	
+}
+
+.prices-block-pro {
+	width: 100%;
+	height: 120px;
+	
+}
+
+.pro-head {
+	width: 50%;
+	height: 120px;
+	float: left;
+	border:1px dotted #3F2D5F;
+	
+}
+
+.pro-txt {
+	width: 49.7%;
+	height: 120px;
+	float: left;
+	background-color: #3F2D5F;
+	
+}
+
+.prices-block-shop {
+	width: 100%;
+	height: 150px;
+	
+}
+
+.shop-head {
+	width: 40%;
+	height: 150px;
+	float: left;
+	border:1px dotted #3F2D5F;
+	
+}
+
+.shop-txt {
+	width: 59.7%;
+	height: 150px;
+	float: left;
+	background-color: #3F2D5F;
+}
+
+.prices-block-hour {
+	width: 99.7%;
+	height: 50px;
+	border:1px dotted #3F2D5F;
+}
+
+
 
 /* Мои работы */
 
