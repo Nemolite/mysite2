@@ -368,7 +368,20 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, r
 	width: 70%;
 	height: 80px;
 	float: left;
-	border:1px dotted #3F2D5F;
+	border-bottom: 1px dotted #3F2D5F;
+	border-left: 1px dotted #3F2D5F;
+	border-top: 1px dotted #3F2D5F;
+	
+}
+
+.budjet-head h2 {
+	text-align: center;
+	font-family: "Exo2Regular",sans-serif;
+}
+
+.budjet-head p {
+	margin: 0 30px;
+	font-family: "Exo2Regular",sans-serif;
 }
 
 .budjet-txt {
@@ -377,6 +390,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, r
 	float: left;
 	background-color: #3F2D5F;
 	color: #fff;
+	border-bottom: 1px dotted #fff;
+}
+
+.budjet-txt h3 {
+	margin: 15px 15px;
+	font-family: "IstokWebRegular" ,sans-serif;
 }
 
 .prices-block-standart {
@@ -389,16 +408,35 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, r
 	width: 60%;
 	height: 100px;
 	float: left;
-	border:1px dotted #3F2D5F;
+	border-bottom: 1px dotted #3F2D5F;
+	border-left: 1px dotted #3F2D5F;
+	border-top: 1px dotted #3F2D5F;
 	
+}
+
+.standart-head h2 {
+	text-align: center;
+	font-family: "Exo2Regular",sans-serif;
+}
+
+.standart-head p {
+	margin: 0 30px;
+	font-family: "Exo2Regular",sans-serif;
 }
 
 .standart-txt {
 	width: 39.7%;
 	height: 100px;
 	float: left;
+	color: #fff;
 	background-color: #3F2D5F;
+	border-bottom: 1px dotted #fff;
 	
+}
+
+.standart-txt h3 {
+	margin: 15px 15px;
+	font-family: "IstokWebRegular" ,sans-serif;
 }
 
 .prices-block-pro {
@@ -411,7 +449,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, r
 	width: 50%;
 	height: 120px;
 	float: left;
-	border:1px dotted #3F2D5F;
+	border-bottom: 1px dotted #3F2D5F;
+	border-left: 1px dotted #3F2D5F;
+	border-top: 1px dotted #3F2D5F;
 	
 }
 
@@ -420,6 +460,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, r
 	height: 120px;
 	float: left;
 	background-color: #3F2D5F;
+	border-bottom: 1px dotted #fff;
 	
 }
 
@@ -433,7 +474,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, r
 	width: 40%;
 	height: 150px;
 	float: left;
-	border:1px dotted #3F2D5F;
+	border-bottom: 1px dotted #3F2D5F;
+	border-left: 1px dotted #3F2D5F;
+	border-top: 1px dotted #3F2D5F;
 	
 }
 
