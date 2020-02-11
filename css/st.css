@@ -441,13 +441,13 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, r
 
 .prices-block-pro {
 	width: 100%;
-	height: 120px;
+	height: 100px;
 	
 }
 
 .pro-head {
 	width: 50%;
-	height: 120px;
+	height: 100px;
 	float: left;
 	border-bottom: 1px dotted #3F2D5F;
 	border-left: 1px dotted #3F2D5F;
@@ -457,22 +457,39 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, r
 
 .pro-txt {
 	width: 49.7%;
-	height: 120px;
+	height: 100px;
 	float: left;
+	color: #fff;
 	background-color: #3F2D5F;
 	border-bottom: 1px dotted #fff;
 	
 }
 
+
+.pro-head h2 {
+	text-align: center;
+	font-family: "Exo2Regular",sans-serif;
+}
+
+.pro-head p {
+	margin: 0 30px;
+	font-family: "Exo2Regular",sans-serif;
+}
+
+.pro-txt h3 {
+	margin: 15px 15px;
+	font-family: "IstokWebRegular" ,sans-serif;
+}
+
 .prices-block-shop {
 	width: 100%;
-	height: 150px;
+	height: 110px;
 	
 }
 
 .shop-head {
 	width: 40%;
-	height: 150px;
+	height: 110px;
 	float: left;
 	border-bottom: 1px dotted #3F2D5F;
 	border-left: 1px dotted #3F2D5F;
@@ -482,15 +499,38 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,115,117,1) 35%, r
 
 .shop-txt {
 	width: 59.7%;
-	height: 150px;
+	height: 110px;
 	float: left;
+	color: #fff;
 	background-color: #3F2D5F;
+}
+
+.shop-head h2 {
+	text-align: center;
+	font-family: "Exo2Regular",sans-serif;
+}
+
+.shop-head p {
+	margin: 0 30px;
+	font-family: "Exo2Regular",sans-serif;
+}
+
+.shop-txt h3 {
+	margin: 15px 15px;
+	font-family: "IstokWebRegular" ,sans-serif;
 }
 
 .prices-block-hour {
 	width: 99.7%;
 	height: 50px;
 	border:1px dotted #3F2D5F;
+}
+
+.prices-block-hour h3 {
+	margin: 15px 15px;
+	text-align: center;
+	color: #3F2D5F;
+	font-family: "IstokWebRegular" ,sans-serif;
 }
 
 
