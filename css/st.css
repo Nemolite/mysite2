@@ -599,6 +599,87 @@
 }
 
 /* Мой блог*/
+.news-blog {
+	width: 100%;
+	height: 700px;
+	padding-top: 50px;
+	border: 1px solid red;
+}
+
+.news-blog-head {
+	width: 70%;
+	height: 70px;
+	margin: 0 auto;
+	
+}
+
+.news-blog-head h1 {
+	font-family: "Exo2Regular",sans-serif;
+	text-align: center;
+}
+
+.news-blog-txt {
+	width: 70%;
+	height: 70px;
+	margin: 0 auto;
+	
+}
+
+.news-blog-txt p {
+    font-size: 1.2em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.news-blog-content {
+	width: 90%;
+	height: 300px;
+	margin: 30px auto;
+	border: 1px solid red; 
+}
+
+.article {
+	width: 24.9%;
+	height: 295px;
+	border: 1px solid green;
+	float: left;
+}
+
+.news-blog-botton {
+    width: 20%;
+    height: 60px;
+    margin: 30px auto 0px auto;
+    
+
+}
+
+.news-blog-btn {
+	width: 100%;
+	height: 57px;
+	border:1px solid #fff;
+	border-radius: 3px;
+	background-color: #3F2D5F;
+	color:#fff;
+}
+
+.news-blog-btn h3 {
+	text-align: center;
+	margin-top: 16px;
+	font-family: "IstokWebRegular" ,sans-serif;	
+}
+
+.news-blog-btn:hover {
+	width: 100%;
+	height: 57px;
+	border:1px solid #3F2D5F;
+	border-radius: 3px;
+	color:#3F2D5F;
+	background-color: #fff;
+}
+
+
+
+
+/* Мой блог*/
 
 .news {
 	clear: both;
