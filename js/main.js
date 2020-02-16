@@ -45,7 +45,6 @@ $(".fon-header").vegas({
 
 
 $(document).ready(function(){
-
    $(".mobile-menu-inner")
        .click(
           function()
@@ -53,5 +52,13 @@ $(document).ready(function(){
             $(".items").toggle(600);
            }
         );
- 
+});
+
+ $(document).ready(function(){
+    $(".nav").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
 });

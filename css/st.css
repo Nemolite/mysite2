@@ -52,7 +52,7 @@
 .nav li a{
 	display: block;
 	padding: 30px 15px 30px 15px;
-	font-size: 16px;
+	font-size: 1em;
 	color:#fff;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -264,8 +264,6 @@
 	width: 90%;
 	height: 350px;
 	margin: 0 auto;
-	
-
 }
 
 .icons-item {
@@ -278,8 +276,6 @@
 .icons-item-circle {
 	width: 100%;
 	height: 200px;
-	
-
 }
 
 .circle {
@@ -315,8 +311,6 @@
 	width: 100%;
 	height: 650px;
 	padding-top: 50px;
-	
-	
 }
 
 .prices-head-txt {
@@ -578,6 +572,11 @@
  
 }
 
+.main-job-botton a{
+   text-decoration: none;
+
+}
+
 .main-job-btn {
 	width: 100%;
 	height: 57px;
@@ -588,6 +587,7 @@
 
 .main-job-btn h3 {
 	text-align: center;
+	transition: 0.5s;
 	margin-top: 16px;
 	font-family: "IstokWebRegular" ,sans-serif;	
 }
@@ -676,8 +676,6 @@
 	
 }
 
-
-
 .article-txt-info p {
 	margin: 10px 30px 10px 30px;
 	font-size: 1.2em;
@@ -688,10 +686,7 @@
     width: 20%;
     height: 60px;
     margin: 30px auto 0px auto;
- 
-
 }
-
 
 .news-blog-btn {
 	width: 100%;
@@ -705,6 +700,7 @@
 .news-blog-btn h3 {
 	text-align: center;
 	margin-top: 16px;
+	transition: 0.5s;
 	font-family: "IstokWebRegular" ,sans-serif;	
 }
 
@@ -716,9 +712,6 @@
 	color:#3F2D5F;
 	background-color: #fff;
 }
-
-
-
 
 /* футер */
 .foot {
@@ -832,8 +825,8 @@
 
 .adress-txt {
 	width: 80%;
-	height: 150px;
-	margin: 0 auto;
+	height: auto;
+	margin: 5px auto 30px auto;
 	border:1px solid #3F2D5F;
 	
 }
@@ -848,7 +841,7 @@
 .niz {
 	width: 100%;
 	height: 50px;
-	padding-top: 10px;
+	padding-top: 12px;
 	border-top: 1px solid #fff;
 }
 
