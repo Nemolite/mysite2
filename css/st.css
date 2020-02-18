@@ -1039,8 +1039,8 @@
 
 .nav li a {
     display: block;
-    padding: 30px 10px 30px 10px;
-    font-size: 0.8em;
+    padding: 30px 5px 30px 5px;
+    font-size: 0.7em;
     color: #fff;
     transition: 0.5s;
     text-transform: uppercase;
@@ -1053,7 +1053,7 @@
 	background-color: #4A3671;
 	display: block;
 	padding: 30px 10px 30px 10px;
-	font-size: 0.8em;
+	font-size: 0.7em;
 	color:#fff;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -1068,7 +1068,7 @@
     letter-spacing: 0.35em;
     margin-bottom: -11px;
     display: block;
-    font-size: 1.70em;
+    font-size: 1.4em;
     width: 59%;
     transition: 1s;
     color: #fff;
@@ -1123,31 +1123,31 @@
     margin: 15px 15px;
     text-align: center;
     color: #3F2D5F;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
 }
 
 .budjet-txt h3 {
     margin: 15px 15px;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
 }
 
 .standart-txt h3 {
     margin: 15px 15px;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
 }
 
 .pro-txt h3 {
     margin: 15px 15px;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
 }
 
 .shop-txt h3 {
     margin: 15px 15px;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
 }
 
@@ -1155,7 +1155,7 @@
     text-align: center;
     transition: 0.5s;
     margin-top: 16px;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
 }
 
@@ -1163,7 +1163,7 @@
     text-align: center;
     margin-top: 16px;
     transition: 0.5s;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
 }
 
@@ -1220,6 +1220,26 @@
 
 @media only screen and (min-width : 600px) and (max-width : 799px) {
 
+.nav {
+	display: none;
+}
+
+.btn-mobil {
+	width: 70px;
+	height: 70px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;
+	border:1px solid red;
+}
+
+.nav-mobil {
+    width: 30%;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 79px;
+    float: right;
+}
 
 
 }/*  (min-width : 500px) and (max-width : 799px) */
