@@ -1247,6 +1247,7 @@
     width: 100%;
     height: 138px;
     float: right;
+    display: none;
     background-color: rgba(0,0,0,0.45);
 
 }
@@ -1288,6 +1289,13 @@
 .nav-mini li {
     text-align: center;
     list-style-type: none;
+}
+
+.info-wp-text p {
+    color: #fff;
+    font-size: 1em;
+    text-indent: 1.5em;
+    font-family: "Exo2Regular",sans-serif;
 }
 
 
