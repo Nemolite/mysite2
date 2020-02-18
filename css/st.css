@@ -12,6 +12,17 @@
 	clear: both;
 }
 
+/* Мобильное меню */
+
+.nav-mobil {
+    width: 100%;
+    height: 138px;
+    float: right;
+    display: none;
+    background-color: rgba(0,0,0,0.45);
+
+}
+
 /* Логотип */
 .nav_logo {
 	width: 25%;
@@ -1243,14 +1254,7 @@
 
 }
 
-.nav-mobil {
-    width: 100%;
-    height: 138px;
-    float: right;
-    display: none;
-    background-color: rgba(0,0,0,0.45);
 
-}
 
 .logo-txt {
     font-family: "IstokWebRegular" ,sans-serif;
@@ -1298,6 +1302,220 @@
     font-family: "Exo2Regular",sans-serif;
 }
 
+.info-wp-head h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8em;
+    text-align: center;
+    color: #fff;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.icons-item {
+    width: 49.5%;
+    height: 340px;
+    display: inline-block;
+}
+
+.info-wp {
+    width: 100%;
+    height: 925px;
+    background-color: #3F2D5F;
+    padding-top: 50px;
+}
+
+.info-wp-text {
+    width: 80%;
+    height: 110px;
+    margin: 0 auto;
+        margin-bottom: 0px;
+    margin-bottom: 30px;
+}
+
+.prices-head-txt h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.budjet-head h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.budjet-txt h3 {
+    margin: 15px 15px;
+    font-size: 1em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
+
+.prices-block-budjet {
+    width: 100%;
+    height: 115px;
+}
+
+.budjet-head {
+    width: 70%;
+    height: 115px;
+    float: left;
+    border-bottom: 1px dotted #3F2D5F;
+    border-left: 1px dotted #3F2D5F;
+    border-top: 1px dotted #3F2D5F;
+}
+
+.budjet-txt {
+    width: 29.7%;
+    height: 115px;
+    float: left;
+    background-color: #3F2D5F;
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+}
+
+.budjet-head p {
+    margin: 0 30px;
+    font-size: 0.9em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.prices-block-standart {
+    width: 100%;
+    height: 150px;
+}
+
+.standart-head h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.standart-txt h3 {
+    margin: 15px 15px;
+    font-size: 1em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
+
+.standart-head p {
+    margin: 0 30px;
+    font-size: 0.9em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.standart-head {
+    width: 60%;
+    height: 150px;
+    float: left;
+    border-bottom: 1px dotted #3F2D5F;
+    border-left: 1px dotted #3F2D5F;
+    border-top: 1px dotted #3F2D5F;
+}
+
+.standart-txt {
+    width: 39.7%;
+    height: 150px;
+    float: left;
+    color: #fff;
+    background-color: #3F2D5F;
+    border-bottom: 1px dotted #fff;
+}
+
+.prices {
+    width: 100%;
+    height: 800px;
+    padding-top: 50px;
+}
+
+.pro-head h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.pro-txt h3 {
+    margin: 15px 15px;
+    font-size: 1em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
+
+.pro-head p {
+    margin: 0 30px;
+    font-size: 0.9em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.prices-block-pro {
+    width: 100%;
+    height: 150px;
+}
+
+.pro-head {
+    width: 50%;
+    height: 150px;
+    float: left;
+    border-bottom: 1px dotted #3F2D5F;
+    border-left: 1px dotted #3F2D5F;
+    border-top: 1px dotted #3F2D5F;
+}
+
+.pro-txt {
+    width: 49.7%;
+    height: 150px;
+    float: left;
+    color: #fff;
+    background-color: #3F2D5F;
+    border-bottom: 1px dotted #fff;
+}
+
+.shop-head h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.shop-txt h3 {
+    margin: 15px 15px;
+    font-size: 1em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
+
+.shop-head p {
+    margin: 0 30px;
+    font-size: 0.9em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.prices-block-shop {
+    width: 100%;
+    height: 150px;
+}
+
+.shop-head {
+    width: 40%;
+    height: 150px;
+    float: left;
+    border-bottom: 1px dotted #3F2D5F;
+    border-left: 1px dotted #3F2D5F;
+    border-top: 1px dotted #3F2D5F;
+}
+
+.shop-txt {
+    width: 59.7%;
+    height: 150px;
+    float: left;
+    color: #fff;
+    background-color: #3F2D5F;
+}
+
+.prices-block-hour h3 {
+    margin: 5px 15px;
+    text-align: center;
+    color: #3F2D5F;
+    font-size: 1em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
 
 }/*  (min-width : 500px) and (max-width : 799px) */
 
