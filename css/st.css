@@ -834,6 +834,7 @@
 .adress-head h1 {
    font-family: "Exo2Regular",sans-serif;
    text-align: center;
+   color: #fff;
 }
 
 .adress-txt {
@@ -848,6 +849,7 @@
 	margin: 10px 30px 10px 30px;
 	font-size: 1.2em;
 	text-indent: 1.5em;
+	color: #fff;
 	font-family: "Exo2Regular",sans-serif;
 }
 
@@ -1165,8 +1167,8 @@
 .main-job-btn h3 {
     text-align: center;
     transition: 0.5s;
-    margin-top: 16px;
-    font-size: 0.9em;
+    margin-top: 9px;
+    font-size: 1em;
     font-family: "IstokWebRegular" ,sans-serif;
 }
 
@@ -1517,9 +1519,57 @@
     font-family: "IstokWebRegular" ,sans-serif;
 }
 
-}/*  (min-width : 500px) and (max-width : 799px) */
+.main-job-content {
+    width: 90%;
+    height: 318px;
+    margin: 0 auto;
+}
 
-@media only screen and (min-width : 600px) and (max-width : 799px) {
+.job-block img {
+    border: 1px solid #fff;
+    width: 100%;
+    height: auto;
+}
+
+.main-job-btn {
+    width: 100%;
+    height: 57px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.main-job-btn h3 {
+    text-align: center;
+    transition: 0.5s;
+    margin-top: 9px;
+    font-size: 0.9em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
+
+
+.main-job-botton {
+    width: 20%;
+    height: 60px;
+    margin: 20px auto 0px auto;
+}
+
+.article-txt-info p {
+    margin: 10px 30px 10px 30px;
+    font-size: 1em;
+    text-indent: 1.2em;
+}
+
+.article-img img {
+    width: 100%;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+}/*  (min-width : 600px) and (max-width : 799px) */
+
+@media only screen and (min-width : 400px) and (max-width : 599px) {
 
 
 
