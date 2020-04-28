@@ -1092,6 +1092,7 @@
     font-size: 0.8em;
     color: #fff;
     font-family: "Exo2Regular",sans-serif;
+    text-align: center;
 }
 
 .info-wp-text p {
@@ -1227,6 +1228,13 @@
     font-size: 1.2em;
 }
 
+.icons-item-text {
+    width: 80%;
+    height: 92px;
+    margin: 0 auto;
+    
+}
+
 
 
 }/*  (min-width : 800px) and (max-width : 999px) */
@@ -1245,6 +1253,7 @@
 	margin-top: 5px;
 	border:1px solid #fff;
 	border-radius: 2px;
+	margin-top: 12px;
 }
 
 .line-btn {
@@ -1255,6 +1264,8 @@
 	cursor:pointer;
 
 }
+
+
 
 
 
@@ -1619,6 +1630,19 @@
     font-family: "Exo2Regular",sans-serif;
 }
 
+
+.news-blog-content {
+    width: 70%;
+    height: 502px;
+    margin: 30px auto;
+}
+
+.news-blog {
+    width: 100%;
+    height: 910px;
+    padding-top: 50px;
+}
+
 }/*  (min-width : 600px) and (max-width : 799px) */
 
 @media only screen and (min-width : 500px) and (max-width : 599px) {
@@ -1673,7 +1697,7 @@
 
 .nav-mini li a {
     padding: 30px 5px 30px 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #fff;
     transition: 0.5s;
     text-transform: uppercase;
@@ -2085,7 +2109,7 @@
 .nav {
 	display: none;
 }
-
+/*
 .btn-mobil {
 	width: 50px;
     height: 50px;
@@ -2095,7 +2119,19 @@
 	border:1px solid #fff;
 	border-radius: 2px;
 }
+*/
 
+.btn-mobil {
+    width: 40px;
+    height: 38px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 19px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+/*
 .line-btn {
 	width: 80%;
 	height: 12px;
@@ -2103,6 +2139,16 @@
 	margin: 0 auto;
 	cursor:pointer;
 
+}
+
+*/
+
+.line-btn {
+    width: 80%;
+    height: 9px;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
 
@@ -2131,7 +2177,7 @@
 
 .nav-mini li a {
     padding: 30px 5px 30px 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #fff;
     transition: 0.5s;
     text-transform: uppercase;
@@ -2169,11 +2215,13 @@
     margin: 0 auto;
 }
 
+
+
 .icons-item-text {
-    width: 80%;
-    height: 145px;
+    width: 100%;
+    height: 85px;
     margin: 0 auto;
-    font-size: 0.8em;   
+    font-size: 0.8em;
 }
 
 
@@ -2387,7 +2435,7 @@
 
 .main-job-content {
     width: 90%;
-	height: 670px;
+	height: 621px;
 	margin: 0 auto;
 }
 
@@ -2395,11 +2443,11 @@
     border: 1px solid #fff;
     width: 100%;
     height: auto;
-    margin-left: 87px;
+    margin-left: 112px;
 }
 
 .main-job-btn {
-    width: 100%;
+    width: 111%;
     height: 57px;
     border: 1px solid #fff;
     border-radius: 3px;
@@ -2527,7 +2575,7 @@
 
 .job-block {
     width: 50.3%;
-    height: 235px;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -2548,6 +2596,13 @@
     font-size: 1em;
     text-indent: 1.5em;
     font-family: "Exo2Regular",sans-serif;
+}
+
+.icons-item-text p {
+    font-size: 1em;
+    color: #fff;
+    font-family: "Exo2Regular",sans-serif;
+    text-align: center;
 }
 
 
@@ -2606,7 +2661,7 @@
 
 .nav-mini li a {
     padding: 30px 5px 30px 5px;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #fff;
     transition: 0.5s;
     text-transform: uppercase;
@@ -2638,8 +2693,8 @@
 }
 
 .icons-item {
-    width: 49.5%;
-    height: 272px;
+    width: 85.5%;
+    height: 215px;
     display: block;
     margin: 0 auto;
 }
@@ -2654,7 +2709,7 @@
 
 .info-wp {
     width: 100%;
-    height: 1448px;
+    height: 1270px;
     background-color: #3F2D5F;
     padding-top: 50px;
 }
@@ -2872,7 +2927,7 @@
 
 .main-job-content {
     width: 90%;
-	height: 670px;
+	height: 482px;
 	margin: 0 auto;
 }
 
@@ -2901,7 +2956,7 @@
 
 
 .main-job-botton {
-    width: 38%;
+    width: 43%;
     height: 60px;
     margin: 20px auto 0px auto;
 }
@@ -2934,7 +2989,7 @@
 
 .article {
     width: 100%;
-    height: 115px;
+    height: 100px;
     border: 1px dotted #3F2D5F;
 }
 
@@ -2981,8 +3036,7 @@
 .niz h3 {
     font-family: "Exo2Regular",sans-serif;
     text-align: center;
-    font-size: 1.4em;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 .adress-txt p {
@@ -3011,20 +3065,20 @@
 
 .main-job-txt p {
     color: #fff;
-    font-size: 1em;
+    font-size: 0.8em;
     text-indent: 1.5em;
     font-family: "Exo2Regular",sans-serif;
 }
 
 .job-block {
     width: 50.3%;
-    height: 235px;
+    height: auto;
     margin: 0 auto;
 }
 
 .main-job {
     width: 100%;
-    height: 970px;
+    height: 887px;
     padding-top: 50px;
     background-color: #3F2D5F;
 }
@@ -3036,11 +3090,577 @@
 }
 
 .news-blog-txt p {
-    font-size: 1em;
+    font-size: 0.8em;
     text-indent: 1.5em;
     font-family: "Exo2Regular",sans-serif;
 }
 
+.article-txt-head {
+    width: 80%;
+    height: 60px;
+    padding-top: 12px;
+}
 
+.icons-item-circle {
+    width: 100%;
+    height: 172px;
+}
+
+.icons-item-text p {
+    font-size: 1em;
+    color: #fff;
+    font-family: "Exo2Regular",sans-serif;
+    text-align: center;
+}
+
+.news-blog-btn {
+    width: 111%;
+    height: 57px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: #3F2D5F;
+    color: #fff;
+}
+
+/*
+.nav-mobil {
+    width: 100%;
+    height: 138px;
+    float: right;
+    display: block;
+    background-color: rgba(0,0,0,0.45);
+}
+*/
 
 } /*  (min-width : 300px) and (max-width : 399px) */	
+
+
+@media only screen and (min-width : 200px) and (max-width : 299px) {
+
+
+.nav {
+	display: none;
+}
+
+.btn-mobil {
+    width: 40px;
+    height: 38px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 19px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.line-btn {
+    width: 80%;
+    height: 9px;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+
+.logo-txt {
+    font-family: "IstokWebRegular" ,sans-serif;
+    text-transform: uppercase;
+    margin-top: 27px;
+    letter-spacing: 0.35em;
+    margin-bottom: -11px;
+    display: block;
+    font-size: 1em;
+    width: 59%;
+    transition: 1s;
+    color: #fff;
+}
+
+.info {
+    position: relative;
+    width: 70%;
+    height: 70px;
+    top: 250px;
+    left: 50px;
+}
+
+
+.nav-mini li a {
+    padding: 30px 5px 30px 5px;
+    font-size: 1em;
+    color: #fff;
+    transition: 0.5s;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "IstokWebRegular" ,sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.nav-mini li {
+    text-align: center;
+    list-style-type: none;
+}
+
+.info-wp-text p {
+    color: #fff;
+    font-size: 0.8em;
+    text-indent: 1.5em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.info-wp-head h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.icons-item {
+    width: 85.5%;
+    height: 215px;
+    display: block;
+    margin: 0 auto;
+}
+
+.icons-item-text {
+    width: 100%;
+    height: 85px;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+
+
+.info-wp {
+    width: 100%;
+    height: 1270px;
+    background-color: #3F2D5F;
+    padding-top: 50px;
+}
+
+.info-wp-text {
+    width: 85%;
+    height: 156px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 30px;
+}
+
+.prices-head-txt h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.budjet-head h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.budjet-txt h3 {
+    margin: 15px 15px;
+    font-size: 0.9em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
+
+.prices-block-budjet {
+    width: 100%;
+    height: 175px;
+}
+
+.budjet-head {
+    width: 100%;
+    height: 161px;
+    border-right: 1px dotted #3F2D5F;
+    border-bottom: 1px dotted #3F2D5F;
+    border-left: 1px dotted #3F2D5F;
+    border-top: 1px dotted #3F2D5F;
+}
+
+.budjet-txt {
+    width: 100%;
+    height: 94px;
+    background-color: #3F2D5F;
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+}
+
+.budjet-head p {
+    margin: 0 30px;
+    font-size: 0.8em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.prices-block-standart {
+    width: 100%;
+    height: 250px;
+}
+
+.standart-head h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.standart-txt h3 {
+    margin: 15px 15px;
+    font-size: 0.9em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
+
+.standart-head p {
+    margin: 0 30px;
+    font-size: 0.8em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.standart-head {
+    width: 100%;
+    height: 189px;
+    border-right: 1px dotted #3F2D5F;
+    border-bottom: 1px dotted #3F2D5F;
+    border-left: 1px dotted #3F2D5F;
+    border-top: 1px dotted #3F2D5F;
+}
+
+.standart-txt {
+    width: 100%;
+    height: 133px;
+    color: #fff;
+    background-color: #3F2D5F;
+    border-bottom: 1px dotted #fff;
+}
+
+.prices {
+    width: 100%;
+    height: 1388px;
+    padding-top: 50px;
+}
+
+.pro-head h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.pro-txt h3 {
+    margin: 15px 15px;
+    font-size: 0.9em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
+
+.pro-head p {
+    margin: 0 30px;
+    font-size: 0.8em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.prices-block-pro {
+    width: 100%;
+    height: 250px;
+}
+
+.pro-head {
+    width: 100%;
+    height: 151px;
+    border-right: 1px dotted #3F2D5F;
+    border-bottom: 1px dotted #3F2D5F;
+    border-left: 1px dotted #3F2D5F;
+    border-top: 1px dotted #3F2D5F;
+}
+
+.pro-txt {
+    width: 100%;
+    height: 155px;
+    color: #fff;
+    background-color: #3F2D5F;
+    border-bottom: 1px dotted #fff;
+}
+
+.shop-head h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.shop-txt h3 {
+    margin: 15px 15px;
+    font-size: 0.9em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
+
+.shop-head p {
+    margin: 0 30px;
+    font-size: 0.8em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.prices-block-shop {
+    width: 100%;
+    height: 235px;
+}
+
+.shop-head {
+    width: 100%;
+    height: 100px;
+    border-right: 1px dotted #3F2D5F;
+    border-bottom: 1px dotted #3F2D5F;
+    border-left: 1px dotted #3F2D5F;
+    border-top: 1px dotted #3F2D5F;
+}
+
+.prices-block-hour {
+    width: 99.7%;
+    height: 95px;
+    border: 1px dotted #3F2D5F;
+    margin-top: 257px;
+}
+
+.shop-txt {
+    width: 100%;
+    height: 194px;
+    float: left;
+    color: #fff;
+    background-color: #3F2D5F;
+}
+
+.prices-block-hour h3 {
+    margin: 5px 15px;
+    text-align: center;
+    color: #3F2D5F;
+    font-size: 0.9em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
+
+
+.main-job-head {
+    width: 70%;
+    height: 52px;
+    margin: 0 auto;
+}
+
+.main-job-txt {
+    width: 82%;
+    height: 70px;
+    margin: 0 auto;
+}
+
+
+.main-job-content {
+    width: 90%;
+	height: 381px;
+	margin: 0 auto;
+}
+
+.job-block img {
+    border: 1px solid #fff;
+    width: 100%;
+    height: auto;
+    margin-left: 66px;
+}
+
+.main-job-btn {
+    width: 100%;
+    height: 57px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.main-job-btn h3 {
+    text-align: center;
+    transition: 0.5s;
+    margin-top: 9px;
+    font-size: 0.9em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
+
+
+.main-job-botton {
+    width: 43%;
+    height: 60px;
+    margin: 20px auto 0px auto;
+}
+
+.article-txt-head h3 {
+    font-family: "Exo2Regular",sans-serif;
+    text-align: center;
+    font-size: 1em;
+}
+
+.news-blog-botton {
+    width: 44%;
+    height: 60px;
+    margin: 30px auto 0px auto;
+}
+
+.article-txt-info p {
+    margin: 10px 30px 10px 30px;
+    font-size: 1em;
+    text-indent: 1.2em;
+    display: none;
+}
+
+.article-img img {
+    width: 100%;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: none;
+}
+
+.article {
+    width: 100%;
+    height: 100px;
+    border: 1px dotted #3F2D5F;
+}
+
+.article-img {
+    width: 30%;
+    height: 115px;
+    float: left;
+}
+
+.article-txt {
+    width: 69.7%;
+    height: 115px;
+    float: left;
+}
+
+.news-blog-content {
+    width: 70%;
+    height: 370px;
+    margin: 30px auto;
+}
+
+.news-blog-btn h3 {
+    text-align: center;
+    margin-top: 16px;
+    transition: 0.5s;
+    font-size: 0.8em;
+    font-family: "IstokWebRegular" ,sans-serif;
+}
+
+.news-blog {
+    width: 100%;
+    height: 762px;
+    padding-top: 50px;
+}
+
+.adress-head h1 {
+    font-family: "Exo2Regular",sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 1.4em;
+
+}
+
+.niz h3 {
+    font-family: "Exo2Regular",sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.adress-txt {
+    width: 93%;
+    height: auto;
+    margin: 5px auto 30px auto;
+    border: 1px solid #3F2D5F;
+}
+
+.adress-txt p {
+    margin: 10px 30px 10px 30px;
+    font-size: 1em;
+    text-indent: 1.2em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+
+.info h1 {
+    font-size: 2em;
+    color: #fff;
+    font-family: "Exo2Regular",sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
+
+.main-job-head h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Exo2Regular",sans-serif;
+    font-size: 1.2em;
+}
+
+.main-job-txt p {
+    color: #fff;
+    font-size: 0.8em;
+    text-indent: 1.5em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.job-block {
+    width: 50.3%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.news-blog-txt {
+    width: 70%;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 51px;
+}
+
+.main-job {
+    width: 100%;
+    height: 733px;
+    padding-top: 50px;
+    background-color: #3F2D5F;
+}
+
+.news-blog-head h1 {
+    font-family: "Exo2Regular",sans-serif;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.news-blog-txt p {
+    font-size: 0.8em;
+    text-indent: 1.5em;
+    font-family: "Exo2Regular",sans-serif;
+}
+
+.article-txt-head {
+    width: 80%;
+    height: 60px;
+    padding-top: 12px;
+}
+
+.icons-item-circle {
+    width: 100%;
+    height: 172px;
+}
+
+.icons-item-text p {
+    font-size: 1em;
+    color: #fff;
+    font-family: "Exo2Regular",sans-serif;
+    text-align: center;
+}
+
+/*
+.nav-mobil {
+    width: 100%;
+    height: 138px;
+    float: right;
+    display: block;
+    background-color: rgba(0,0,0,0.45);
+}
+*/
+
+} /*  (min-width : 200px) and (max-width : 299px) */	

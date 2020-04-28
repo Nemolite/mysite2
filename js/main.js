@@ -54,6 +54,17 @@ $(document).ready(function(){
         );
 });
 
+
+
+$( ".btn-mobil" ).click(function() {
+  $( ".nav-mobil" ).toggle(600);
+});
+
+
+
+
+
+
  $(document).ready(function(){
     $(".nav").on("click","a", function (event) {
         event.preventDefault();
