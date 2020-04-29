@@ -50,6 +50,11 @@
    
 }
 
+.out {
+   transform: translateY(-100%);
+}
+
+
 .nav li {
 	float: left;
 	list-style-type:none;
@@ -321,8 +326,9 @@
 
 .prices {
 	width: 100%;
-	height: 650px;
+	height: 775px;
 	padding-top: 50px;
+
 }
 
 .prices-head-txt {
@@ -349,12 +355,12 @@
 
 .prices-block-budjet {
 	width: 100%;
-	height: 80px;
+	height: 130px;
 }
 
 .budjet-head {
 	width: 70%;
-	height: 80px;
+	height: 130px;
 	float: left;
 	border-bottom: 1px dotted #3F2D5F;
 	border-left: 1px dotted #3F2D5F;
@@ -365,16 +371,18 @@
 .budjet-head h2 {
 	text-align: center;
 	font-family: "Exo2Regular",sans-serif;
+	margin-top: 20px;
 }
 
 .budjet-head p {
 	margin: 0 30px;
 	font-family: "Exo2Regular",sans-serif;
+	margin-top: 10px;
 }
 
 .budjet-txt {
 	width: 29.7%;
-	height: 80px;
+	height: 130px;
 	float: left;
 	background-color: #3F2D5F;
 	color: #fff;
@@ -384,17 +392,19 @@
 .budjet-txt h3 {
 	margin: 15px 15px;
 	font-family: "IstokWebRegular" ,sans-serif;
+	margin-top: 38px;
 }
 
 .prices-block-standart {
 	width: 100%;
-	height: 100px;
+	height: 155px;
+
 	
 }
 
 .standart-head {
 	width: 60%;
-	height: 100px;
+	height: 155px;
 	float: left;
 	border-bottom: 1px dotted #3F2D5F;
 	border-left: 1px dotted #3F2D5F;
@@ -405,16 +415,19 @@
 .standart-head h2 {
 	text-align: center;
 	font-family: "Exo2Regular",sans-serif;
+	margin-top: 20px;
+
 }
 
 .standart-head p {
 	margin: 0 30px;
 	font-family: "Exo2Regular",sans-serif;
+	margin-top: 10px;
 }
 
 .standart-txt {
 	width: 39.7%;
-	height: 100px;
+	height: 155px;
 	float: left;
 	color: #fff;
 	background-color: #3F2D5F;
@@ -425,17 +438,18 @@
 .standart-txt h3 {
 	margin: 15px 15px;
 	font-family: "IstokWebRegular" ,sans-serif;
+	margin-top: 28px;
 }
 
 .prices-block-pro {
 	width: 100%;
-	height: 100px;
+	height: 140px;
 	
 }
 
 .pro-head {
 	width: 50%;
-	height: 100px;
+	height: 140px;
 	float: left;
 	border-bottom: 1px dotted #3F2D5F;
 	border-left: 1px dotted #3F2D5F;
@@ -445,7 +459,7 @@
 
 .pro-txt {
 	width: 49.7%;
-	height: 100px;
+	height: 140px;
 	float: left;
 	color: #fff;
 	background-color: #3F2D5F;
@@ -457,27 +471,30 @@
 .pro-head h2 {
 	text-align: center;
 	font-family: "Exo2Regular",sans-serif;
+	margin-top: 20px;
 }
 
 .pro-head p {
 	margin: 0 30px;
 	font-family: "Exo2Regular",sans-serif;
+	margin-top: 10px;
 }
 
 .pro-txt h3 {
 	margin: 15px 15px;
 	font-family: "IstokWebRegular" ,sans-serif;
+	margin-top: 23px;
 }
 
 .prices-block-shop {
 	width: 100%;
-	height: 110px;
+	height: 140px;
 	
 }
 
 .shop-head {
 	width: 40%;
-	height: 110px;
+	height: 140px;
 	float: left;
 	border-bottom: 1px dotted #3F2D5F;
 	border-left: 1px dotted #3F2D5F;
@@ -487,7 +504,7 @@
 
 .shop-txt {
 	width: 59.7%;
-	height: 110px;
+	height: 140px;
 	float: left;
 	color: #fff;
 	background-color: #3F2D5F;
@@ -496,16 +513,19 @@
 .shop-head h2 {
 	text-align: center;
 	font-family: "Exo2Regular",sans-serif;
+	margin-top: 20px;
 }
 
 .shop-head p {
 	margin: 0 30px;
 	font-family: "Exo2Regular",sans-serif;
+	margin-top: 10px;
 }
 
 .shop-txt h3 {
 	margin: 15px 15px;
 	font-family: "IstokWebRegular" ,sans-serif;
+	margin-top: 21px;
 }
 
 .prices-block-hour {
@@ -930,25 +950,29 @@
 .budjet-head p {
     margin: 0 30px;
     font-family: "Exo2Regular",sans-serif;
-    font-size: 0.8em;
+    font-size: 0.95em;
+    margin-top: 10px;
 }
 
 .standart-head p {
     margin: 0 30px;
-    font-size: 0.8em;
+    font-size: 0.95em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 10px;
 }
 
 .pro-head p {
     margin: 0 30px;
-    font-size: 0.8em;
+    font-size: 0.95em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 10px;
 }
 
 .shop-head p {
     margin: 0 30px;
-    font-size: 0.8em;
+    font-size: 0.95em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 10px;
 }
 
 .prices-block-hour h3 {
@@ -963,24 +987,28 @@
     margin: 15px 15px;
     font-size: 1em;
     font-family: "IstokWebRegular" ,sans-serif;
+    margin-top: 30px;
 }
 
 .standart-txt h3 {
     margin: 15px 15px;
     font-size: 1em;
     font-family: "IstokWebRegular" ,sans-serif;
+    margin-top: 30px;
 }
 
 .pro-txt h3 {
     margin: 15px 15px;
     font-size: 1em;
     font-family: "IstokWebRegular" ,sans-serif;
+    margin-top: 30px;
 }
 
 .shop-txt h3 {
     margin: 15px 15px;
     font-size: 1em;
     font-family: "IstokWebRegular" ,sans-serif;
+    margin-top: 30px;
 }
 
 .main-job-btn h3 {
@@ -1113,24 +1141,28 @@
     margin: 0 30px;
     font-family: "Exo2Regular",sans-serif;
     font-size: 0.8em;
+    margin-top: 10px;
 }
 
 .standart-head p {
     margin: 0 30px;
     font-size: 0.8em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 10px;
 }
 
 .pro-head p {
     margin: 0 30px;
     font-size: 0.8em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 10px;
 }
 
 .shop-head p {
     margin: 0 30px;
     font-size: 0.8em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 10px;
 }
 
 .prices-block-hour h3 {
@@ -1145,24 +1177,28 @@
     margin: 15px 15px;
     font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
+    margin-top: 40px;
 }
 
 .standart-txt h3 {
     margin: 15px 15px;
     font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
+    margin-top: 34px;
 }
 
 .pro-txt h3 {
     margin: 15px 15px;
     font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
+    margin-top: 32px;
 }
 
 .shop-txt h3 {
     margin: 15px 15px;
     font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
+    margin-top: 25px;
 }
 
 .main-job-btn h3 {
@@ -1367,12 +1403,12 @@
 
 .prices-block-budjet {
     width: 100%;
-    height: 115px;
+    height: 134px;
 }
 
 .budjet-head {
     width: 70%;
-    height: 115px;
+    height: 134px;
     float: left;
     border-bottom: 1px dotted #3F2D5F;
     border-left: 1px dotted #3F2D5F;
@@ -1381,7 +1417,7 @@
 
 .budjet-txt {
     width: 29.7%;
-    height: 115px;
+    height: 134px;
     float: left;
     background-color: #3F2D5F;
     color: #fff;
@@ -1396,7 +1432,7 @@
 
 .prices-block-standart {
     width: 100%;
-    height: 150px;
+    height: 195px;
 }
 
 .standart-head h2 {
@@ -1419,7 +1455,7 @@
 
 .standart-head {
     width: 60%;
-    height: 150px;
+    height: 195px;
     float: left;
     border-bottom: 1px dotted #3F2D5F;
     border-left: 1px dotted #3F2D5F;
@@ -1428,7 +1464,7 @@
 
 .standart-txt {
     width: 39.7%;
-    height: 150px;
+    height: 195px;
     float: left;
     color: #fff;
     background-color: #3F2D5F;
@@ -1437,7 +1473,7 @@
 
 .prices {
     width: 100%;
-    height: 800px;
+    height: 850px;
     padding-top: 50px;
 }
 
@@ -1461,12 +1497,12 @@
 
 .prices-block-pro {
     width: 100%;
-    height: 150px;
+    height: 165px;
 }
 
 .pro-head {
     width: 50%;
-    height: 150px;
+    height: 165px;
     float: left;
     border-bottom: 1px dotted #3F2D5F;
     border-left: 1px dotted #3F2D5F;
@@ -1475,7 +1511,7 @@
 
 .pro-txt {
     width: 49.7%;
-    height: 150px;
+    height: 165px;
     float: left;
     color: #fff;
     background-color: #3F2D5F;
@@ -1502,12 +1538,12 @@
 
 .prices-block-shop {
     width: 100%;
-    height: 150px;
+    height: 170px;
 }
 
 .shop-head {
     width: 40%;
-    height: 150px;
+    height: 170px;
     float: left;
     border-bottom: 1px dotted #3F2D5F;
     border-left: 1px dotted #3F2D5F;
@@ -1516,7 +1552,7 @@
 
 .shop-txt {
     width: 59.7%;
-    height: 150px;
+    height: 170px;
     float: left;
     color: #fff;
     background-color: #3F2D5F;
@@ -1765,7 +1801,7 @@
 
 .budjet-txt h3 {
     margin: 15px 15px;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
 }
 
@@ -1794,8 +1830,9 @@
 
 .budjet-head p {
     margin: 0 30px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 5px;
 }
 
 .prices-block-standart {
@@ -1805,7 +1842,7 @@
 
 .standart-head h2 {
     text-align: center;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "Exo2Regular",sans-serif;
 }
 
@@ -1817,8 +1854,9 @@
 
 .standart-head p {
     margin: 0 30px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 5px;
 }
 
 .standart-head {
@@ -1853,14 +1891,15 @@
 
 .pro-txt h3 {
     margin: 15px 15px;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
 }
 
 .pro-head p {
     margin: 0 30px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 5px;
 }
 
 .prices-block-pro {
@@ -1894,14 +1933,15 @@
 
 .shop-txt h3 {
     margin: 15px 15px;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "IstokWebRegular" ,sans-serif;
 }
 
 .shop-head p {
     margin: 0 30px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 5px;
 }
 
 .prices-block-shop {
@@ -2291,7 +2331,7 @@
 
 .prices-block-standart {
     width: 100%;
-    height: 250px;
+    height: 260px;
 }
 
 .standart-head h2 {
@@ -2314,7 +2354,7 @@
 
 .standart-head {
     width: 60%;
-    height: 250px;
+    height: 260px;
     float: left;
     border-bottom: 1px dotted #3F2D5F;
     border-left: 1px dotted #3F2D5F;
@@ -2323,7 +2363,7 @@
 
 .standart-txt {
     width: 39.7%;
-    height: 250px;
+    height: 260px;
     float: left;
     color: #fff;
     background-color: #3F2D5F;
@@ -2332,7 +2372,7 @@
 
 .prices {
     width: 100%;
-    height: 1100px;
+    height: 1110px;
     padding-top: 50px;
 }
 
@@ -2499,6 +2539,7 @@
     width: 30%;
     height: 115px;
     float: left;
+    display: none;
 }
 
 .article-txt {
@@ -2605,12 +2646,26 @@
     text-align: center;
 }
 
+.adress-txt {
+    width: 95%;
+    height: auto;
+    margin: 5px auto 30px auto;
+    border: 1px solid #3F2D5F;
+}
+
 
 
 } /*  (min-width : 400px) and (max-width : 499px) */	
 
 
 @media only screen and (min-width : 300px) and (max-width : 399px) {
+
+.adress-txt {
+    width: 95%;
+    height: auto;
+    margin: 5px auto 30px auto;
+    border: 1px solid #3F2D5F;
+}
 
 
 .nav {
@@ -2740,6 +2795,7 @@
     margin: 15px 15px;
     font-size: 1em;
     font-family: "IstokWebRegular" ,sans-serif;
+    margin-top: 24px;
 }
 
 .prices-block-budjet {
@@ -2749,7 +2805,7 @@
 
 .budjet-head {
     width: 100%;
-    height: 161px;
+    height: 190px;
     border-right: 1px dotted #3F2D5F;
     border-bottom: 1px dotted #3F2D5F;
     border-left: 1px dotted #3F2D5F;
@@ -2768,6 +2824,8 @@
     margin: 0 30px;
     font-size: 0.9em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 5px;
+
 }
 
 .prices-block-standart {
@@ -2791,11 +2849,12 @@
     margin: 0 30px;
     font-size: 0.9em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 5px;
 }
 
 .standart-head {
     width: 100%;
-    height: 189px;
+    height: 215px;
     border-right: 1px dotted #3F2D5F;
     border-bottom: 1px dotted #3F2D5F;
     border-left: 1px dotted #3F2D5F;
@@ -2812,7 +2871,7 @@
 
 .prices {
     width: 100%;
-    height: 1375px;
+    height: 1500px;
     padding-top: 50px;
 }
 
@@ -2832,6 +2891,7 @@
     margin: 0 30px;
     font-size: 0.9em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 5px;
 }
 
 .prices-block-pro {
@@ -2841,7 +2901,7 @@
 
 .pro-head {
     width: 100%;
-    height: 151px;
+    height: 175px;
     border-right: 1px dotted #3F2D5F;
     border-bottom: 1px dotted #3F2D5F;
     border-left: 1px dotted #3F2D5F;
@@ -2872,6 +2932,7 @@
     margin: 0 30px;
     font-size: 0.9em;
     font-family: "Exo2Regular",sans-serif;
+    margin-top: 5px;
 }
 
 .prices-block-shop {
@@ -2881,7 +2942,7 @@
 
 .shop-head {
     width: 100%;
-    height: 90px;
+    height: 130px;
     border-right: 1px dotted #3F2D5F;
     border-bottom: 1px dotted #3F2D5F;
     border-left: 1px dotted #3F2D5F;
@@ -2892,7 +2953,7 @@
     width: 99.7%;
     height: 82px;
     border: 1px dotted #3F2D5F;
-    margin-top: 257px;
+    margin-top: 375px;
 }
 
 .shop-txt {
@@ -2927,7 +2988,7 @@
 
 .main-job-content {
     width: 90%;
-	height: 482px;
+	height: 496px;
 	margin: 0 auto;
 }
 
@@ -2997,6 +3058,7 @@
     width: 30%;
     height: 115px;
     float: left;
+    display: none;
 }
 
 .article-txt {
@@ -3078,7 +3140,7 @@
 
 .main-job {
     width: 100%;
-    height: 887px;
+    height: 809px;
     padding-top: 50px;
     background-color: #3F2D5F;
 }
@@ -3099,6 +3161,7 @@
     width: 80%;
     height: 60px;
     padding-top: 12px;
+    margin: 0 auto;
 }
 
 .icons-item-circle {
@@ -3137,6 +3200,13 @@
 
 @media only screen and (min-width : 200px) and (max-width : 299px) {
 
+
+.adress-txt {
+    width: 95%;
+    height: auto;
+    margin: 5px auto 30px auto;
+    border: 1px solid #3F2D5F;
+}
 
 .nav {
 	display: none;
@@ -3257,7 +3327,7 @@
 
 .budjet-head h2 {
     text-align: center;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "Exo2Regular",sans-serif;
 }
 
@@ -3274,7 +3344,7 @@
 
 .budjet-head {
     width: 100%;
-    height: 161px;
+    height: 185px;
     border-right: 1px dotted #3F2D5F;
     border-bottom: 1px dotted #3F2D5F;
     border-left: 1px dotted #3F2D5F;
@@ -3290,8 +3360,8 @@
 }
 
 .budjet-head p {
-    margin: 0 30px;
-    font-size: 0.8em;
+    /*margin: 0 30px;*/
+    font-size: 0.7em;
     font-family: "Exo2Regular",sans-serif;
 }
 
@@ -3313,8 +3383,8 @@
 }
 
 .standart-head p {
-    margin: 0 30px;
-    font-size: 0.8em;
+    /*margin: 0 30px;*/
+    font-size: 0.7em;
     font-family: "Exo2Regular",sans-serif;
 }
 
@@ -3337,7 +3407,7 @@
 
 .prices {
     width: 100%;
-    height: 1388px;
+    height: 1435px;
     padding-top: 50px;
 }
 
@@ -3354,8 +3424,8 @@
 }
 
 .pro-head p {
-    margin: 0 30px;
-    font-size: 0.8em;
+    /*margin: 0 30px;*/
+    font-size: 0.7em;
     font-family: "Exo2Regular",sans-serif;
 }
 
@@ -3394,8 +3464,8 @@
 }
 
 .shop-head p {
-    margin: 0 30px;
-    font-size: 0.8em;
+   /* margin: 0 30px;*/
+    font-size: 0.7em;
     font-family: "Exo2Regular",sans-serif;
 }
 
@@ -3406,7 +3476,7 @@
 
 .shop-head {
     width: 100%;
-    height: 100px;
+    height: 125px;
     border-right: 1px dotted #3F2D5F;
     border-bottom: 1px dotted #3F2D5F;
     border-left: 1px dotted #3F2D5F;
@@ -3417,7 +3487,7 @@
     width: 99.7%;
     height: 95px;
     border: 1px dotted #3F2D5F;
-    margin-top: 257px;
+    margin-top: 298px;
 }
 
 .shop-txt {
@@ -3432,7 +3502,7 @@
     margin: 5px 15px;
     text-align: center;
     color: #3F2D5F;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-family: "IstokWebRegular" ,sans-serif;
 }
 

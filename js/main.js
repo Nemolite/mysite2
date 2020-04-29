@@ -1,33 +1,4 @@
-$(window).on("load", function () {
-    var sum=0;
-    $('.banner-container li img').each(function(){ 
-        sum += $(this).width();
-    });
-    $('.banner-container ul').width(sum);
-});
-$(function(){
-    var winWidth = $(".banner-container").width();
-    var ulWidthCount = 0;
-    ulWidthCount = $('.banner-container li').length;
-    $(".banner-container li").width(winWidth/ulWidthCount);
-    $(".banner-container li").hover(function(){            
-        ulWidthCount = $('.banner-container li').length;
-        var imgWidth = $(this).find("img").width();
-        var bannerLi = winWidth - imgWidth;
-        var remWidth = ulWidthCount - 1;
-        var appWidth = bannerLi/remWidth;
-        $(".banner-container li").stop(true, false).animate({width: appWidth},700);
-        $(this).stop(true, false).animate({width: imgWidth},700);
-        $(this).find("span.overlay").stop(true, false).fadeOut();
-        }, function(){
-        $(this).animate({width: winWidth/ulWidthCount},700);
-        $(".banner-container li").animate({width:winWidth/ulWidthCount},700);
-        $(this).find("span.overlay").fadeIn();
-    });    
-}); 
-
-
-
+/*слайдер*/
 
 $(".fon-header").vegas({
     delay: 10000,
@@ -43,27 +14,13 @@ $(".fon-header").vegas({
     ]
 });
 
-
-$(document).ready(function(){
-   $(".mobile-menu-inner")
-       .click(
-          function()
-          {
-            $(".items").toggle(600);
-           }
-        );
-});
-
-
+/*плавный переход по пунктам меню*/
 
 $( ".btn-mobil" ).click(function() {
   $( ".nav-mobil" ).toggle(600);
 });
 
-
-
-
-
+/*плавный переход пунктов меню*/
 
  $(document).ready(function(){
     $(".nav").on("click","a", function (event) {
@@ -73,3 +30,21 @@ $( ".btn-mobil" ).click(function() {
         $('body,html').animate({scrollTop: top}, 1500);
     });
 });
+
+
+/*скрытие меню при скорлинге вниз, 
+открытие при скорлинге верх*/
+
+var header = $('.head__nav'),
+    scrollPrev = 0;
+
+$(window).scroll(function() {
+    var scrolled = $(window).scrollTop();
+ 
+    if ( scrolled > 100 && scrolled > scrollPrev ) {
+        header.addClass('out');
+    } else {
+        header.removeClass('out');
+    }
+    scrollPrev = scrolled;
+}); 
