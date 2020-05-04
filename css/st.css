@@ -2543,7 +2543,7 @@
 }
 
 .article-txt {
-    width: 69.7%;
+    width: 100%;
     height: 115px;
     float: left;
 }
@@ -2995,7 +2995,7 @@
 .job-block img {
     border: 1px solid #fff;
     width: 100%;
-    height: auto;
+    height: 140px;
     margin-left: 87px;
 }
 
@@ -3019,7 +3019,7 @@
 .main-job-botton {
     width: 43%;
     height: 60px;
-    margin: 20px auto 0px auto;
+    margin: auto auto 20px auto;
 }
 
 .article-txt-head h3 {
@@ -3062,7 +3062,7 @@
 }
 
 .article-txt {
-    width: 69.7%;
+    width: 100%;
     height: 115px;
     float: left;
 }
@@ -3134,7 +3134,7 @@
 
 .job-block {
     width: 50.3%;
-    height: auto;
+    height: 150px;
     margin: 0 auto;
 }
 
@@ -3553,7 +3553,7 @@
 .main-job-botton {
     width: 43%;
     height: 60px;
-    margin: 20px auto 0px auto;
+    margin: auto auto 10px auto;
 }
 
 .article-txt-head h3 {
@@ -3593,10 +3593,11 @@
     width: 30%;
     height: 115px;
     float: left;
+    display: none;
 }
 
 .article-txt {
-    width: 69.7%;
+    width: 100%;
     height: 115px;
     float: left;
 }
@@ -3706,7 +3707,7 @@
 }
 
 .article-txt-head {
-    width: 80%;
+    width: 100%;
     height: 60px;
     padding-top: 12px;
 }
