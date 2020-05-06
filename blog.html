@@ -18,43 +18,54 @@
 	 		
 	 		</div>
 	 		<div class="recount-content">
-	 		   <div class="content-left">
+	 		 <form action="handler.php">  
 	 		   	  <div class="list">
 	 		   	  	<div class="list-txt">
-	 		   	  		<h3>Вы хотите верстку</h3>
+	 		   	  		<h3>Как вариант сайта вы выбираете?</h3>
 	 		   	  	</div>
 	 		   	  	<div class="list-in">
-	 		   	  		
+                       <select  name="arr[]">
+                          <option>Бюджетный сайт</option>
+                          <option>Стандартный сайт</option>
+                          <option>Корпоративный сайт</option>
+                          <option>Интернет-магазин</option>
+                          
+                       </select>
 	 		   	  	</div>	
 	 		   	  </div>
 	 		   	  <div class="list">
-	 		   	  	
+	 		   	  	<div class="list-txt">
+	 		   	  		<h3>Сколько страниц в сайте вы планируете?</h3>
+	 		   	  	</div>
+	 		   	  	<div class="list-in">
+                       <input type="number" min="1" />
+	 		   	  	</div>	
 	 		   	  </div>
 	 		   	  <div class="list">
-	 		   	  	
+	 		   	  	<div class="list-txt">
+	 		   	  		<h3>Какую CMS или фреймворк предпочитаете?</h3>
+	 		   	  	</div>
+	 		   	  	<div class="list-in">
+       <p><input name="dzen" type="radio" value="nedzen">WordPress</p>
+       <p><input name="dzen" type="radio" value="dzen">Laravel</p>
+    	 		   	  	</div>	
 	 		   	  </div>
 	 		   	  <div class="list">
-	 		   	  	
+	 		   	  	<div class="list-txt">
+	 		   	  		<h3>Сколько страниц в сайте вы планируете?</h3>
+	 		   	  	</div>
+	 		   	  	<div class="list-in">
+                       <input type="number" min="1" />
+	 		   	  	</div>	
 	 		   	  </div>
-	 		   </div>
-	 		   <div class="content-right">
+	 		  
 	 		   	 
-	 		   	  <div class="list">
-	 		   	  	
-	 		   	  </div>
-	 		   	  <div class="list">
-	 		   	  	
-	 		   	  </div>
-	 		   	  <div class="list">
-	 		   	  	
-	 		   	  </div>
-	 		   	  <div class="list">
-	 		   	  	
-	 		   	  </div>
-	 		   </div>
+	 		   	  
+	 		
 	 		   <div class="total">
 	 		   	 <p>{{message}}</p>
 	 		   </div>
+	 		  </form>    
 	 		</div>
 	 	</div>
 	 </div>
