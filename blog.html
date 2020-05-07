@@ -18,10 +18,10 @@
 	 		
 	 		</div>
 	 		<div class="recount-content">
-	 		 <form action="handler.php">  
+	 		 <form action="">  
 	 		   	  <div class="list">
 	 		   	  	<div class="list-txt">
-	 		   	  		<h3>Как вариант сайта вы выбираете?</h3>
+	 		   	  		<h3>Какой вариант сайта вы выбираете?</h3>
 	 		   	  	</div>
 	 		   	  	<div class="list-in select">
                        <select  name="arr[]">
@@ -38,7 +38,12 @@
 	 		   	  		<h3>Сколько страниц в сайте вы планируете?</h3>
 	 		   	  	</div>
 	 		   	  	<div class="list-in">
-                       <input type="number" min="1" />
+  <div class="quantity-block">
+  <button class="quantity-arrow-minus"> - </button>
+  <input class="quantity-num" type="number" value="1" />
+  <button class="quantity-arrow-plus"> + </button>
+</div>
+
 	 		   	  	</div>	
 	 		   	  </div>
 	 		   	  <div class="list">
@@ -77,6 +82,7 @@
 	 		</div>
 	 	</div> <!-- main-->
 	 </div>
+	<script src="js/jquery-3.4.1.min.js"></script> 
 	<script src="js/vue.min.js"></script>
 	<script src="js/recoun.js"></script>
 </body>
